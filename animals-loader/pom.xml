@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.aliction</groupId>
-	<artifactId>loader</artifactId>
+	<artifactId>animals-loader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>loader</name>
 	<description>Load file data into jms queue</description>
@@ -25,54 +25,11 @@
 			<version>3.14.0</version>
 		</dependency>
 
-		<!-- <dependency>
-			<groupId>org.apache.activemq</groupId>
-			<artifactId>artemis-jms-server</artifactId>
-		</dependency> -->
-
-		<!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-activemq</artifactId>
-        </dependency> -->
-
-		<!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
-        </dependency>		 -->
-
-		<!-- Required for AMQP-JMS (SpringBoot Required) -->
-		<dependency>
-			<groupId>org.amqphub.spring</groupId>
-			<artifactId>amqp-10-jms-spring-boot-starter</artifactId>
-			<version>2.5.4</version>
-		</dependency>
-
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-file-starter</artifactId>
 			<version>${camel.version}</version>
 			<!-- use the same version as your Camel core version -->
-		</dependency>
-
-
-		<!-- Only JMS is needed for JMS -->
-		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-jms-starter</artifactId>
-			<version>${camel.version}</version>
-			<!-- use the same version as your Camel core version -->
-		</dependency>
-
-		<!-- JMS, AMQP1.0 and Pooled JMS are needed for AMQP connection -->
-		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-amqp-starter</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.messaginghub</groupId>
-			<artifactId>pooled-jms</artifactId>
 		</dependency>
 
 		<!-- KAFKA -->
