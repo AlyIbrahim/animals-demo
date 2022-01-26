@@ -1,4 +1,4 @@
-package com.aliction.loader;
+package com.aliction.animalsloader;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

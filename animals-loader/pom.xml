@@ -12,7 +12,7 @@
 	<groupId>com.aliction</groupId>
 	<artifactId>animals-loader</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>loader</name>
+	<name>animals-loader</name>
 	<description>Load file data into jms queue</description>
 	<properties>
 		<java.version>11</java.version>
